@@ -1,0 +1,10 @@
+a=-1
+b=-2
+c=-3
+d=a*b*c
+print(d)
+e=1
+f=2
+g=3
+h=e*f*g
+print(h)

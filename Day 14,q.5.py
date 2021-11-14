@@ -1,0 +1,10 @@
+c=("Toy","Ball","Cat")
+d=list(c)
+print(len(d))
+d[2]="kiwi"
+d.append("Guava")
+d.remove("Ball")
+print(d[1:3])
+d.sort()
+c=tuple(d)
+print(c)

@@ -1,0 +1,13 @@
+a={"Mango","Pear"}
+b={20,40,60}
+print(a)
+print(b)
+print(len(a))
+print(len(b))
+print(type(a))
+print(type(b))
+a.update("Orange")
+print(a)
+print(b)
+a.clear()
+print(a)

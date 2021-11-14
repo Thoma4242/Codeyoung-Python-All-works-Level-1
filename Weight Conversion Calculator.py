@@ -1,0 +1,10 @@
+from tkinter import*
+root=Tk()
+root.geometry("400x300")
+root.title("Weight Conversions")
+root.config(bg="Red")
+w=Label(root,text="Weight Conversion Calculator",width=100,height=6,fg="Green")
+wv=StringVar()
+we=Entry(root,textvar=wv,font="Arial 15 bold",height=10,width=5)
+we.place(x=50,y=20)
+root.mainloop()

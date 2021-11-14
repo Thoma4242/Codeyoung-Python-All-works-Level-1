@@ -1,0 +1,7 @@
+a=(-20,-40,-60)
+b=(20,40,60)
+c=list(a)
+d=list(b)
+c.extend(d)
+a=tuple(c)
+print(a)
